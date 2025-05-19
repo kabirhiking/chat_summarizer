@@ -56,7 +56,7 @@ Summary:
 - User sent 2 messages, AI sent 2 messages.
 - Most common keywords: machine, learning, data, ai, systems.
 
-<<<<<<< HEAD
+
 ####
 Input & Output: image-1
 
