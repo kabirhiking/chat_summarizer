@@ -13,11 +13,21 @@ This Python-based tool analyzes AI chat logs and provides a summary with message
 
 ---
 
-## 🗂 Example Format
+## 🗂 Example Format-1
 User: Hello!
 AI: Hi! How can I assist you today?
 User: Can you explain what machine learning is?
 AI: Certainly! Machine learning is a field of AI that allows systems to learn from data.
+
+
+## 🗂 Example Format-2
+User: What's the weather like today?  
+AI: I don't have real-time data, but you can check a weather website or app for accurate info.  
+User: Got it, thanks. Can you tell me how photosynthesis works?  
+AI: Of course! Photosynthesis is the process by which green plants convert sunlight, carbon dioxide, and water into glucose and oxygen.  
+User: Why do leaves change color in the fall?  
+AI: Leaves change color because chlorophyll breaks down, revealing other pigments like carotenoids and anthocyanins.  
+
 
 
 
@@ -28,15 +38,15 @@ AI: Certainly! Machine learning is a field of AI that allows systems to learn fr
 1. Install dependencies:
    ```bash
    pip install -r requirements.txt
-``````````
+
 
 2. Add .txt files inside sample_chats/
 3. Run:
 
-``````
-python main.py
+   ``````
+   python main.py
 
-`````
+
 
 📊 Example Output
 
@@ -46,7 +56,15 @@ Summary:
 - User sent 2 messages, AI sent 2 messages.
 - Most common keywords: machine, learning, data, ai, systems.
 
-![image](https://github.com/user-attachments/assets/9926abac-dd23-47c9-8225-5f24f5422321)
-![alt text](image-1.png)
+####
+Input & Output: image-1
 
-c:\Users\pc\Desktop\chat_summarizer\image-1.png
+
+![alt text](image/image-1.png)
+
+
+####
+Input & Output: image-2
+
+
+![alt text](image/image-2.png)
