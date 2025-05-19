@@ -41,6 +41,7 @@ def get_most_common_keywords(messages, top_n=5):
     counter = Counter(filtered_words)
     return [word for word, _ in counter.most_common(top_n)]
 
+# Function to extract keywords using TF-IDF
 def get_tfidf_keywords(messages, top_n=5):
     all_texts = messages['user'] + messages['ai']
     vectorizer = TfidfVectorizer(stop_words='english')
@@ -51,6 +52,7 @@ def get_tfidf_keywords(messages, top_n=5):
     top_keywords = sorted(scored_words, key=lambda x: x[1], reverse=True)[:top_n]
     return [word for word, _ in top_keywords]
 
+# Function to summarize the chat log
 def summarize_chat(messages, use_tfidf=False):
     stats = count_messages(messages)
     keywords = get_tfidf_keywords(messages) if use_tfidf else get_most_common_keywords(messages)
