@@ -48,5 +48,7 @@ Summary:
 
 ![image](https://github.com/user-attachments/assets/9926abac-dd23-47c9-8225-5f24f5422321)
 ![alt text](image-1.png)
+``````
+![image](https://github.com/user-attachments/assets/928ad9d9-677a-47c6-9ca3-363c7c57f125)
 
 c:\Users\pc\Desktop\chat_summarizer\image-1.png
