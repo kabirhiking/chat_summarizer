@@ -45,3 +45,5 @@ Summary:
 - The conversation had 4 exchanges.
 - User sent 2 messages, AI sent 2 messages.
 - Most common keywords: machine, learning, data, ai, systems.
+
+![alt text](image.png)
