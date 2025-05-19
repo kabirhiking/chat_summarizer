@@ -47,3 +47,6 @@ Summary:
 - Most common keywords: machine, learning, data, ai, systems.
 
 ![image](https://github.com/user-attachments/assets/9926abac-dd23-47c9-8225-5f24f5422321)
+![alt text](image-1.png)
+
+c:\Users\pc\Desktop\chat_summarizer\image-1.png
